@@ -1,0 +1,237 @@
+.bgimage {
+  background-image: url(../../resources/Banners/emprendimiento-1920.jpg);
+  background-size: cover;
+  position: relative;
+  height: 28em;
+  object-fit: cover;
+
+  z-index: 4;
+  margin-bottom: 64px;
+  background-repeat: no-repeat;
+}
+
+.bgimage-bgimage_responsive {
+  display: none;
+}
+
+.bgimage-logo {
+  padding-bottom: 2.5rem;
+  padding-top: 2rem;
+}
+
+.bgimage-logo svg {
+  width: 19em;
+  height: auto;
+}
+
+.bgimage-content {
+  color: #0054a6;
+  max-width: 36%;
+  position: relative;
+  z-index: 2;
+}
+
+.intro {
+  color: #3f4b5f;
+}
+
+.bgimage-content p:first-child {
+  font-size: 2.25em;
+  margin-bottom: 0.8em;
+  line-height: 43px;
+}
+
+.bgimage-content p:nth-child(2) {
+  font-size: 1.25em;
+  letter-spacing: 0.15px;
+  margin-bottom: 1em;
+  line-height: 24px;
+}
+.bgimage-content p:nth-child(3) {
+  font-size: 1.25em;
+  letter-spacing: 0.15px;
+  margin-bottom: 1em;
+  line-height: 24px;
+  font-weight: 700;
+  color: #3f4b5f;
+}
+
+.bgimage-button {
+  width: 285px;
+  display: flex;
+  height: 3em;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.25em;
+  margin-top: 10em;
+}
+
+.bgimage-stars {
+  position: absolute;
+  bottom: 0;
+  right: 20px;
+}
+
+.bgimage-stars svg {
+  width: 8em;
+  height: auto;
+}
+
+.bgimage_gradient {
+  display: none;
+}
+
+@media (max-width: 1400px) {
+  .bgimage {
+    background-image: url(../../resources/Banners/emprendimiento-1024.jpg);
+    background-position: right;
+    font-size: 14px;
+  }
+  .bgimage-content p:nth-child(2) {
+    font-size: 1.45em;
+  }
+  .bgimage-content p:nth-child(3) {
+    font-size: 1.45em;
+  }
+}
+
+@media (max-width: 1024px) {
+  .bgimage {
+    background-image: url(../../resources/Banners/emprendimiento-768.jpg);
+    background-position: right;
+    padding-bottom: 1em;
+    background-position: 82%;
+  }
+}
+
+@media (max-width: 1400px) {
+  .bgimage-content p:nth-child(2) {
+    font-size: 1.3em;
+  }
+
+  .bgimage-content {
+    max-width: 44%;
+    padding-bottom: 2em;
+    padding-bottom: 0.5em;
+  }
+}
+
+@media (max-width: 600px) {
+  .bgimage-button {
+    height: 50px;
+    width: 100%;
+    position: relative;
+    top: -3.5em;
+  }
+  .bgimage-logo {
+    margin-top: 0;
+    width: 40%;
+    display: flex;
+    margin-bottom: 15vw;
+    z-index: 1;
+  }
+  .bgimage-stars {
+    position: absolute;
+    top: 25vw;
+    left: 30px;
+    width: 55px;
+    height: 55px;
+    z-index: 2;
+  }
+  .bgimage-stars svg {
+    width: 100%;
+  }
+
+  .bgimage-logo {
+    padding-bottom: 2.5rem;
+    padding-top: 1rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .bgimage {
+    background-image: url(../../resources/banner2.png) !important;
+    font-size: 16px !important;
+  }
+  .bgimage-bgimage_responsive {
+    background-image: url(../../resources/Banners/emprendimiento-400.jpg);
+    background-size: cover;
+    display: block;
+    position: absolute;
+    height: 100%;
+    left: 0;
+    right: 0;
+    object-fit: cover;
+    top: 0;
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-position: right;
+  }
+  .bgimage-content {
+    max-width: 100%;
+    padding-left: 2.27em;
+    padding-right: 2.27em;
+  }
+
+  .bgimage-content {
+    padding-left: 2.27em;
+    padding-right: 2.27em;
+    max-width: 100%;
+    margin-top: 36vh;
+  }
+}
+
+@media (max-width: 420px) {
+  .bgimage {
+    font-size: 11px !important;
+  }
+
+  .bgimage-content p:first-child {
+    font-size: 2.9em;
+    margin-bottom: 0.8em;
+    display: block;
+    max-width: 283px;
+    position: relative;
+    line-height: inherit;
+  }
+
+  .bgimage-content p:nth-child(2) {
+    font-size: 1.65em;
+  }
+
+  .bgimage-content p:nth-child(3) {
+    font-size: 1.65em;
+  }
+
+  .bgimage-content {
+    padding-left: 2.27em;
+    padding-right: 2.27em;
+    max-width: 100%;
+  }
+
+  .bgimage-logo {
+    padding-bottom: 2.5rem;
+    padding-top: 1rem;
+  }
+}
+
+@media (max-width: 599px) {
+  .bgimage-button {
+    font-size: 1.9em;
+  }
+}
+
+@media (max-width: 360px) and (max-height: 740px) {
+  .bgimage-button {
+    position: relative;
+    font-size: 1.9em;
+    top: -3em;
+  }
+}
+@media (max-width: 320px) and (max-height: 480px) {
+  .bgimage-button {
+    position: relative;
+    font-size: 1.9em;
+    top: -2em;
+  }
+}
