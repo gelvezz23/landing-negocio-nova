@@ -96,10 +96,10 @@ $(document).ready(function () {
   });
 
   $(".js-call-modal-video").click(function () {
-    $("#videoFrame").html(
-      '<iframe src="modalVideo.html" id="myModalTwoFrame" frameborder="0"></iframe>'
-    );
     $(".modalVideo").css("display", "block");
+    $("#videoFrame").html(
+      '<iframe src="./modalVideo.html" id="myModalTwoFrame" frameborder="0"></iframe>'
+    );
   });
 
   $(".modal-content .close").click(function () {
