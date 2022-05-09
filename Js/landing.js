@@ -107,7 +107,7 @@ $(document).ready(function () {
     $(".modalTwo").css("display", "none");
 
     $(".modalVideo").css("display", "none");
-    $("#videoFrame").empty();
+    //$("#videoFrame").empty();
   });
 
   $(".owl-video-play-icon").click(function () {
