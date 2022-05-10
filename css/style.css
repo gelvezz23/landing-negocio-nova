@@ -356,7 +356,7 @@ a {
 
 .modal-body-video {
   padding: 2px 1rem;
-  height: 89vh;
+  height: 45vh;
 }
 
 .modal-body-two {
@@ -374,7 +374,7 @@ a {
 }
 @media (max-width: 1200px) {
   .modal-body-video {
-    height: 62vh;
+    height: 32vh;
   }
 }
 
